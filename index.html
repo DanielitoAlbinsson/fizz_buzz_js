@@ -17,14 +17,29 @@
     <body>
     <h1>Fizzbuzz</h1>
     <p>Enter a number from 1 to 100<p>
-    <input type="text" id="number" Placeholder="number"
-    </body>
-    </div>
-    </div>
-
 
     <script src='https://code.jquery.com/jquery-2.1.4.js'></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.1/foundation.js"></script>
+    <script scr="js/fizz_buzz.js"></script>
+
+    <form>
+      <input type="text" id="number" Placeholder="number">
+      <input type="button" id="calculate" value="calculate">
+    </form>
+    </body>
+    </div>
+    <span id="display_message"></span>
+    </div>
+
+    <script type="text/javascript">
+    $(document).ready(function)(){
+    $('fizz_buzz')();
+
+    $('calculate').click(function)(){
+      var ('#number');
+
+}
+});
 
  </body>
 </html>
